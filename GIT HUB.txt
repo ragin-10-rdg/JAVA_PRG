@@ -1,0 +1,6 @@
+cd "C:\Users\HPO\OneDrive\Desktop\May'25 Assignment\PRG_401_JAVA\JAVA PRG"
+ 
+git add .
+git commit -m "Initial commit45"
+git branch -M main
+git push -u origin main  
