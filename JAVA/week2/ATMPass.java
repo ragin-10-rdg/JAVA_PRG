@@ -1,7 +1,6 @@
 package week2;
 
 import java.util.Scanner;
-
 public class ATMPass {
     public static void main(String[] args) {
         // Define the correct password

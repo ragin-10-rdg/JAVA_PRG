@@ -2,7 +2,6 @@ package week2;
 import java.util.Scanner;
 public class shoppingdiscount {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the total purchase amount: $");
         double PA = scanner.nextDouble();
@@ -14,11 +13,9 @@ public class shoppingdiscount {
         } else {
             Ds = 0.0;
         }
-
         double FA = PA - Ds;
         System.out.println("Discount applied: $" + Ds);
         System.out.println("Final amount to be paid: $" + FA);
-
         scanner.close();
     }
 }
