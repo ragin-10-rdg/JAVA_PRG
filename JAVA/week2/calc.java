@@ -2,15 +2,12 @@ package week2;
 import java.util.Scanner;
 public class calc {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
-
         System.out.println("Select an operation:");
         System.out.println("+ : Addition");
         System.out.println("- : Subtraction");
         System.out.println("* : Multiplication");
         System.out.println("/ : Division");
-
         System.out.print("Enter your choice: ");
         char operation = scanner.next().charAt(0);
         System.out.print("Enter the first number: ");

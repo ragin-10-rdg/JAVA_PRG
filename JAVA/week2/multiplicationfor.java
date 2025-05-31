@@ -6,10 +6,9 @@ public class multiplicationfor {
             System.out.print("Enter a number: ");
             int number = scanner.nextInt();
             System.out.println("Multiplication Table of " + number + ":");
-            for (int i = 1; i <= 20; i++) {
+            for (int i = 1; i <= 10; i++) {
                 System.out.println(number + " x " + i + " = " + (number * i));
             }
-
             scanner.close();
         }
 }

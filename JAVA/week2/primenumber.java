@@ -1,5 +1,4 @@
 package week2;
-
 public class primenumber {
     public static void main(String[] args) {
         int num=1;
